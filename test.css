@@ -5,5 +5,29 @@
 
 .test{
     color: blue;
-    cursor:url("house-icon.png"),auto;
+    cursor:pointer;
+
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    border: 1px solid gray;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+
+    padding: 20px;
+    width: 110px;
+    height: 110px;
+    background: red;
+}
+
+.box2{
+    background-color: green;
+}
+.box3{
+    background: blue;
 }
